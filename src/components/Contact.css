@@ -1,0 +1,30 @@
+/* File: Contact.css */
+/* Student Name: John Doe */
+/* Student ID: 123456 */
+/* Date: 2024-05-25 */
+
+.contact {
+    padding: 20px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  

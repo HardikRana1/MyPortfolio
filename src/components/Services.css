@@ -1,0 +1,26 @@
+/* File: Services.css */
+/* Student Name: John Doe */
+/* Student ID: 123456 */
+/* Date: 2024-05-25 */
+
+.services {
+    padding: 20px;
+  }
+  
+  .services-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .service-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    box-sizing: border-box;
+  }
+  
+  .service-card img {
+    max-width: 100%;
+  }
+  

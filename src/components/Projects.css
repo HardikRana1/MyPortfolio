@@ -1,0 +1,26 @@
+/* File: Projects.css */
+/* Student Name: John Doe */
+/* Student ID: 123456 */
+/* Date: 2024-05-25 */
+
+.projects {
+    padding: 20px;
+  }
+  
+  .projects-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    box-sizing: border-box;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+  }
+  

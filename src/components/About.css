@@ -1,0 +1,23 @@
+/* File: About.css */
+/* Student Name: John Doe */
+/* Student ID: 123456 */
+/* Date: 2024-05-25 */
+
+.about {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .about a {
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
