@@ -1,11 +1,26 @@
 import React from 'react';
 import './Services.css';
+import webdevImage from '../assets/webdev.jpg'; 
+import mobileImage from '../assets/mobile.jpg';
+import windowsImage from '../assets/windows.jpg';
 
 const Services = () => {
   const services = [
-    { title: 'Web Development', description: 'Creating beautiful web experiences', image: 'path/to/webdev.jpg' },
-    { title: 'Mobile Apps', description: 'Building functional mobile applications', image: 'path/to/mobile.jpg' },
-    { title: 'General Programming', description: 'Solving complex problems with code', image: 'path/to/programming.jpg' },
+    { 
+      title: 'Web Development', 
+      description: 'I specialize in creating beautiful, responsive, and functional websites using modern technologies like React, Node.js, and MongoDB. Whether it\'s a simple landing page or a complex web application, I can help bring your vision to life.', 
+      image: webdevImage 
+    },
+    { 
+      title: 'Mobile Development', 
+      description: 'I develop functional and user-friendly mobile applications for both Android and iOS platforms using React Native. My apps are designed to provide a seamless user experience, with a focus on performance and usability.', 
+      image: mobileImage 
+    },
+    { 
+      title: 'Windows Application Development', 
+      description: 'I offer Windows application development services using technologies like C# and .NET. From utility tools to full-fledged desktop applications, I can create robust solutions tailored to your needs.', 
+      image: windowsImage 
+    },
   ];
 
   return (

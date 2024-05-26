@@ -1,6 +1,6 @@
 /* File: Services.css */
-/* Student Name: John Doe */
-/* Student ID: 123456 */
+/* Student Name: Hardik Rana */
+/* Student ID: 301379703 */
 /* Date: 2024-05-25 */
 
 .services {
@@ -11,6 +11,8 @@
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   
   .service-card {

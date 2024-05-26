@@ -1,6 +1,6 @@
 /* File: Navbar.css */
-/* Student Name: John Doe */
-/* Student ID: 123456 */
+/* Student Name: Hardik Rana */
+/* Student ID: 301379703 */
 /* Date: 2024-05-25 */
 
 .navbar {
@@ -9,25 +9,34 @@
     align-items: center;
     padding: 10px 20px;
     background-color: #333;
-  }
-  
-  .navbar .logo {
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    height: 40px; /* Adjust the height as needed */
+    margin-right: 10px;
+}
+
+.navbar .logo span {
     font-size: 24px;
     color: white;
-  }
-  
-  .navbar ul {
+}
+
+.navbar ul {
     list-style: none;
     display: flex;
     gap: 20px;
-  }
-  
-  .navbar ul li {
+}
+
+.navbar ul li {
     display: inline;
-  }
-  
-  .navbar ul li a {
+}
+
+.navbar ul li a {
     color: white;
     text-decoration: none;
-  }
-  
+}
