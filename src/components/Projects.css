@@ -1,0 +1,28 @@
+/* File: Projects.css */
+/* Student Name: Hardik Rana */
+/* Student ID: 301379703 */
+/* Date: 2024-05-25 */
+
+.projects {
+    padding: 20px;
+  }
+  
+  .projects-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    box-sizing: border-box;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+  }
+  
