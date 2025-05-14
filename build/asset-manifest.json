@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.005de4e2.css",
+    "main.js": "/static/js/main.eeb9e675.js",
+    "static/js/317.a83cd74c.chunk.js": "/static/js/317.a83cd74c.chunk.js",
+    "static/media/E-commrence.jpg": "/static/media/E-commrence.4a6a481eaf9eabf7f4b6.jpg",
+    "static/media/Data Analysis.jpg": "/static/media/Data Analysis.9e72ed83bf3959572a1e.jpg",
+    "static/media/Profile.jpg": "/static/media/Profile.e4589aa9079046e3ea3f.jpg",
+    "static/media/Logo.jpg": "/static/media/Logo.e220fe208f59217a9934.jpg",
+    "static/media/FitnessAPP.jpg": "/static/media/FitnessAPP.ca4b459241bae2880ea4.jpg",
+    "index.html": "/index.html",
+    "main.005de4e2.css.map": "/static/css/main.005de4e2.css.map",
+    "main.eeb9e675.js.map": "/static/js/main.eeb9e675.js.map",
+    "317.a83cd74c.chunk.js.map": "/static/js/317.a83cd74c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.005de4e2.css",
+    "static/js/main.eeb9e675.js"
+  ]
+}
