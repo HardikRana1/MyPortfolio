@@ -1,3 +1,7 @@
+/* File: Services.css */
+/* Student Name: Hardik Rana */
+/* Student ID: 301379703 */
+/* Date: 2024-05-25 */
 import React, { useState } from 'react';
 import './Contact.css';
 import { useNavigate } from 'react-router-dom';
@@ -35,6 +39,12 @@ const Contact = () => {
 
   return (
     <div className="contact">
+      <div className="contact-info">
+        <h2>Contact Information</h2>
+        <p><strong>Email:</strong> hrana0124@gmail.com</p>
+        <p><strong>Phone:</strong> +14374279892</p>
+        <p><strong>Address:</strong> 1 MorningTon Gate, Scarborough, ON, Canada</p>
+      </div>
       <h1>Contact Me</h1>
       <form onSubmit={handleSubmit}>
         <input
