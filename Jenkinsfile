@@ -11,7 +11,7 @@ pipeline {
       steps {
         git branch: 'main',
             url: 'https://github.com/HardikRana1/MyPortfolio.git',
-            credentialsId: 'github-token'
+            credentialsId: 'github-https'
       }
     }
 
