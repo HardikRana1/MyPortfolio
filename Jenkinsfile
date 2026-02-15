@@ -30,7 +30,8 @@ pipeline {
     stage('Deploy to Kubernetes') {
       steps {
         sh '''
-          kubectl set image deployment/myapp myapp=$IMAGE_NAME
+           kubectl apply -f k8s/deployment.yaml
+           kubectl set image deployment/myapp myapp=$IMAGE_NAME
         '''
       }
     }
